@@ -37,7 +37,7 @@ export const Hero = () => {
           <h1 id="hero" className="hero-title">
             iPhone 15 Pro
           </h1>
-          <div className="md:w-11/12 w-full">
+          <div className="md:w-11/12 w-10/12">
             <video
               className="pointer-events-none"
               autoPlay
