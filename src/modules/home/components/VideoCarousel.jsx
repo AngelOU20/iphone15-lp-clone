@@ -88,7 +88,7 @@ const useVideoProgressAnimation = (
         gsap.ticker.remove(animUpdate);
       };
     }
-  }, [videoId, isPlaying]);
+  }, [videoId, video.startPlay]);
 };
 
 const getProgressBarWidth = () => {
@@ -175,7 +175,7 @@ export const VideoCarousel = () => {
         videoRef.current[videoId].currentTime = 0;
         gsap.to("#slider", {
           transform: `translateX(${-100 * i}%)`,
-          duration: 0.5,
+          duration: 1.5,
           ease: "power2.inOut",
           onComplete: () => {
             setVideo((prev) => ({
@@ -209,7 +209,7 @@ export const VideoCarousel = () => {
                     id="video"
                     className={`${
                       item.id === 2 && "md:translate-x-44 translate-x-16"
-                    } pointer-events-none`}
+                    }`}
                     playsInline={true}
                     preload="auto"
                     muted
