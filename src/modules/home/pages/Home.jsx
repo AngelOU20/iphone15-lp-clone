@@ -1,5 +1,5 @@
-import { Header } from "@/components/Header.jsx";
-import { Hero, Highlights } from "../components";
+import { Header } from "@/components";
+import { Hero, Highlights, Model } from "../components";
 
 const Home = () => {
   return (
@@ -7,6 +7,7 @@ const Home = () => {
       <Header />
       <Hero />
       <Highlights />
+      <Model />
     </main>
   );
 };
