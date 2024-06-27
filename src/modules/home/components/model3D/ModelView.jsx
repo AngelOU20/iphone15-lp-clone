@@ -1,9 +1,8 @@
 import PropTypes from "prop-types";
 import * as THREE from "three";
 import { OrbitControls, PerspectiveCamera, View } from "@react-three/drei";
-import { Lights, Loader } from "./";
+import { IPhone, Lights, Loader } from "..";
 import { Suspense } from "react";
-import IPhone from "./Iphone";
 
 export const ModelView = ({
   index,
