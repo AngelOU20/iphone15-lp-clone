@@ -26,7 +26,7 @@ export const Highlights = () => {
           </h2>
 
           <div className="flex flex-col md:flex-row justify-between gap-1 md:gap-10">
-            <div className="link-animated flex translate-y-20">
+            <div className="link-animated flex opacity-0 translate-y-20">
               <a className="link">Watch the film</a>
               <img
                 src={watchImg}
@@ -34,7 +34,7 @@ export const Highlights = () => {
                 className="mt-1 ml-2 cursor-pointer"
               />
             </div>
-            <div className="link-animated flex translate-y-20">
+            <div className="link-animated flex opacity-0 translate-y-20">
               <a className="link">Watch the event</a>
               <img
                 src={rightImg}
