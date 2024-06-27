@@ -30,7 +30,7 @@ export const MobileNav = () => {
   }, [isOpen]);
 
   return (
-    <nav className="md:hidden w-full bg-black text-white">
+    <nav className="w-full bg-black text-white">
       <div className="flex justify-between items-center p-3">
         <AppleIcon className="w-5 h-5 cursor-pointer" />
         <div className="flex items-center gap-8">
