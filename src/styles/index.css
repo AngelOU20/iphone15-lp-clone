@@ -99,19 +99,19 @@ canvas {
   }
 
   .hiw-title {
-    @apply text-4xl md:text-7xl font-semibold text-center;
+    @apply text-4xl md:text-7xl font-semibold w-full text-center;
   }
 
   .hiw-subtitle {
-    @apply text-gray font-semibold text-xl md:text-2xl py-10 text-center;
+    @apply text-gray font-semibold text-xl md:text-2xl w-full text-center;
   }
 
   .hiw-video {
-    @apply absolute w-[95%] h-[90%] rounded-[56px] overflow-hidden;
+    @apply absolute w-[95%] h-[90%] md:rounded-[56px] overflow-hidden;
   }
 
   .hiw-text-container {
-    @apply flex md:flex-row flex-col justify-between items-start gap-24;
+    @apply w-full mt-20 flex md:flex-row flex-col items-start;
   }
 
   .hiw-text {
