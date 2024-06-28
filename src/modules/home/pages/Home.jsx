@@ -1,5 +1,5 @@
 import { Header } from "@/components";
-import { Hero, Highlights, Model } from "../components";
+import { Features, Hero, Highlights, Model } from "../components";
 
 const Home = () => {
   return (
@@ -8,6 +8,7 @@ const Home = () => {
       <Hero />
       <Highlights />
       <Model />
+      <Features />
     </main>
   );
 };
