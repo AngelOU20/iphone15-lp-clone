@@ -1,4 +1,4 @@
-import { Header } from "@/components";
+import { Header, Footer } from "@/components";
 import { Features, Hero, Highlights, HowItWorks, Model } from "../components";
 
 const Home = () => {
@@ -10,6 +10,7 @@ const Home = () => {
       <Model />
       <Features />
       <HowItWorks />
+      <Footer />
     </main>
   );
 };
